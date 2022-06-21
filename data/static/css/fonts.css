@@ -1,0 +1,4 @@
+@font-face {
+    font-family: 'Prompt', sans-serif;
+    src: local('Prompt'), url('/static/fonts/Prompt-Bold.ttf');
+}

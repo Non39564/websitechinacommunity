@@ -1,210 +1,244 @@
-{% extends 'components/base.html' %}
-{% block content %}
+{% extends 'components/base.html' %} {% block content %}
 <main role="main" class="container">
-    <div class="container px-4">
+  <div class="container px-4">
     <div class="row gx-5">
-        <div class="col">
+      <div class="col">
         <div class="p-3">
-            <img src="https://picsum.photos/536/354" class="img-fluid" alt="..." />
+              <div class="col text-center">
+                <div class="h1">Custom column padding</div>
+              </div>
+            <div class="tutorial container text-center my-5 ratio ratio-16x9">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/4Ara779qczY"
+            ></iframe>
+          </div>
         </div>
-        </div>
-        <div class="col text-center">
-        <div class="p-3">Custom column padding</div>
-        </div>
+      </div>
     </div>
-    </div>
-    <br />
-    <div class="row bg-secondary text-white text-center">
+  </div>
+  <br />
+  <div class="row text-white text-center" style="background-color: #D56A2C";>
     <div class="col-md-4">
-        <div class="thumbnail">
+      <div class="thumbnail">
         <a href="/w3images/lights.jpg">
-            <div class="caption">
+          <div class="caption">
+            <br>
             <p>Lorem ipsum...</p>
-            </div>
-            <img
-            src="https://picsum.photos/536/354"
-            alt="Lights"
-            style="width: 100%"
-            />
+          </div>
+          <svg
+          class="bd-placeholder-img img-fluid rounded-start"
+          width="100%"
+          height="250"
+          xmlns="http://www.w3.org/2000/svg"
+          role="img"
+          aria-label="Placeholder: Image"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        >
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#868e96"></rect>
+          <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text>
+        </svg>
         </a>
         <div class="caption">
-            <br />
+          <br />
         </div>
-        </div>
+      </div>
     </div>
     <div class="col-md-4">
-        <div class="thumbnail">
+      <div class="thumbnail">
         <a href="/w3images/lights.jpg">
-            <div class="caption">
+          <div class="caption">
+          <br>
             <p>Lorem ipsum...</p>
-            </div>
-            <img
-            src="https://picsum.photos/536/354"
-            alt="Lights"
-            style="width: 100%"
-            />
+          </div>
+          <svg
+          class="bd-placeholder-img img-fluid rounded-start"
+          width="100%"
+          height="250"
+          xmlns="http://www.w3.org/2000/svg"
+          role="img"
+          aria-label="Placeholder: Image"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        >
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#868e96"></rect>
+          <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text>
+        </svg>
         </a>
         <div class="caption">
-            <br />
+          <br />
         </div>
-        </div>
+      </div>
     </div>
     <div class="col-md-4">
-        <div class="thumbnail">
+      <div class="thumbnail">
         <a href="/w3images/lights.jpg">
-            <div class="caption">
+          <div class="caption">
+          <br>
             <p>Lorem ipsum...</p>
-            </div>
-            <img
-            src="https://picsum.photos/536/354"
-            alt="Lights"
-            style="width: 100%"
-            />
+          </div>
+          <svg
+          class="bd-placeholder-img img-fluid rounded-start"
+          width="100%"
+          height="250"
+          xmlns="http://www.w3.org/2000/svg"
+          role="img"
+          aria-label="Placeholder: Image"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        >
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#868e96"></rect>
+          <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text>
+        </svg>
         </a>
         <div class="caption">
-            <br />
+          <br />
         </div>
-        </div>
+      </div>
     </div>
-    </div>
-    <br />
-    <h1 class="card-text text-center">
+  </div>
+  <br />
+  <h1 class="card-text text-center">
     This is a wider card with supporting text below as a natural lead-in to
     additional content. This content is a little bit longer.
-    </h1>
-    <div class="card mb-3" style="max-width: auto">
+  </h1>
+  <div class="card mb-3" style="max-width: auto">
     <div class="row g-0">
-        <div class="col-md-4">
+      <div class="col-md-4">
         <svg
-            class="bd-placeholder-img img-fluid rounded-start"
-            width="100%"
-            height="250"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder: Image"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
+          class="bd-placeholder-img img-fluid rounded-start"
+          width="100%"
+          height="250"
+          xmlns="http://www.w3.org/2000/svg"
+          role="img"
+          aria-label="Placeholder: Image"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
         >
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#868e96"></rect>
-            <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text>
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#868e96"></rect>
+          <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text>
         </svg>
-        </div>
-        <div class="col-md-8">
+      </div>
+      <div class="col-md-8">
         <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
             This is a wider card with supporting text below as a natural lead-in
             to additional content. This content is a little bit longer.
-            </p>
-            <p class="card-text">
+          </p>
+          <p class="card-text">
             <small class="text-muted">Last updated 3 mins ago</small>
-            </p>
+          </p>
         </div>
-        </div>
+      </div>
     </div>
-    </div>
-    <div class="card mb-3" style="max-width: auto">
+  </div>
+  <div class="card mb-3" style="max-width: auto">
     <div class="row g-0">
-        <div class="col-md-4">
+      <div class="col-md-4">
         <svg
-            class="bd-placeholder-img img-fluid rounded-start"
-            width="100%"
-            height="250"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder: Image"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
+          class="bd-placeholder-img img-fluid rounded-start"
+          width="100%"
+          height="250"
+          xmlns="http://www.w3.org/2000/svg"
+          role="img"
+          aria-label="Placeholder: Image"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
         >
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#868e96"></rect>
-            <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text>
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#868e96"></rect>
+          <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text>
         </svg>
-        </div>
-        <div class="col-md-8">
+      </div>
+      <div class="col-md-8">
         <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
             This is a wider card with supporting text below as a natural lead-in
             to additional content. This content is a little bit longer.
-            </p>
-            <p class="card-text">
+          </p>
+          <p class="card-text">
             <small class="text-muted">Last updated 3 mins ago</small>
-            </p>
+          </p>
         </div>
-        </div>
+      </div>
     </div>
-    </div>
-    <div class="card mb-3" style="max-width: auto">
+  </div>
+  <div class="card mb-3" style="max-width: auto">
     <div class="row g-0">
-        <div class="col-md-4">
+      <div class="col-md-4">
         <svg
-            class="bd-placeholder-img img-fluid rounded-start"
-            width="100%"
-            height="250"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder: Image"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
+          class="bd-placeholder-img img-fluid rounded-start"
+          width="100%"
+          height="250"
+          xmlns="http://www.w3.org/2000/svg"
+          role="img"
+          aria-label="Placeholder: Image"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
         >
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#868e96"></rect>
-            <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text>
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#868e96"></rect>
+          <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text>
         </svg>
-        </div>
-        <div class="col-md-8">
+      </div>
+      <div class="col-md-8">
         <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
             This is a wider card with supporting text below as a natural lead-in
             to additional content. This content is a little bit longer.
-            </p>
-            <p class="card-text">
+          </p>
+          <p class="card-text">
             <small class="text-muted">Last updated 3 mins ago</small>
-            </p>
+          </p>
         </div>
-        </div>
+      </div>
     </div>
-    </div>
-    <div class="card mb-3" style="max-width: auto">
+  </div>
+  <div class="card mb-3" style="max-width: auto">
     <div class="row g-0">
-        <div class="col-md-4">
+      <div class="col-md-4">
         <svg
-            class="bd-placeholder-img img-fluid rounded-start"
-            width="100%"
-            height="250"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder: Image"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
+          class="bd-placeholder-img img-fluid rounded-start"
+          width="100%"
+          height="250"
+          xmlns="http://www.w3.org/2000/svg"
+          role="img"
+          aria-label="Placeholder: Image"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
         >
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#868e96"></rect>
-            <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text>
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#868e96"></rect>
+          <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text>
         </svg>
-        </div>
-        <div class="col-md-8">
+      </div>
+      <div class="col-md-8">
         <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
             This is a wider card with supporting text below as a natural lead-in
             to additional content. This content is a little bit longer.
-            </p>
-            <p class="card-text">
+          </p>
+          <p class="card-text">
             <small class="text-muted">Last updated 3 mins ago</small>
-            </p>
+          </p>
         </div>
-        </div>
+      </div>
     </div>
-    </div>
-    <div class="bg-light text-center">
+  </div>
+  <div class="bg-light text-center">
     <h1>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
+      This is a wider card with supporting text below as a natural lead-in to
+      additional content. This content is a little bit longer.
     </h1>
-    </div>
+  </div>
 </main>
 {% endblock %}
